@@ -32,7 +32,7 @@ include::description.adoc[]
 
 === From source
 
-You could clone the repository into the Emacs directory:
+You could clone the repository into an application directory:
 
 [source,bash]
 ----
