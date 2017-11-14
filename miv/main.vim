@@ -57,3 +57,8 @@ call s:source_rc('basics.vim')
 call s:source_rc('filetypes.vim')
 call s:source_rc('keybindings.vim')
 call s:source_rc('tempfiles.vim')
+
+"" Include user's local vim config
+if filereadable(expand("~/.nvimrc.local"))
+  source ~/.nvimrc.local
+endif
