@@ -53,6 +53,8 @@ call dein#add('scrooloose/nerdtree')
 call dein#add('jistr/vim-nerdtree-tabs')
 call dein#add('majutsushi/tagbar')
 
+call dein#add('mhinz/vim-grepper')
+
 call dein#add('vim-syntastic/syntastic')
 
 call dein#add('scrooloose/nerdcommenter')
@@ -67,6 +69,8 @@ call dein#add('zchee/deoplete-go', {'build': 'make'})
 call dein#add('joshdick/onedark.vim')
 call dein#add('vim-airline/vim-airline')
 call dein#add('vim-airline/vim-airline-themes')
+
+call dein#add('mhinz/vim-startify')
 
 call dein#end()
 call dein#save_state()
