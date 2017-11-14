@@ -14,11 +14,17 @@
 
 scriptencoding utf-8
 
+"" Encoding
+set encoding=utf-8
+set fileencoding=utf-8
+set fileencodings=utf-8
+
 filetype plugin indent on  " Load plugins and indentions according to detected filetype.
 syntax on                  " Enable syntax highlighting.
+set ruler
 
 set relativenumber         " set linenumbers, wich are counted relative from the current line
-set smartcase              " use case sensitive search when upper case letters are typed in the pattern, otherwhise don't
+
 set background=dark        " let vim optimize the colors for a dark background
 
 set autoindent             " Indent according to previous line.
@@ -36,6 +42,8 @@ set showcmd                 " Show already typed keys when more are expected.
 
 set incsearch               " Highlight while searching with / or ?.
 set hlsearch                " Keep matches highlighted.
+set smartcase               " use case sensitive search when upper case letters are typed in the pattern, otherwhise don't
+set ignorecase
 
 set ttyfast                 " Faster redrawing.
 set lazyredraw              " Only redraw when necessary.
