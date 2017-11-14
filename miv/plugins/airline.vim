@@ -12,6 +12,8 @@
 " See the License for the specific language governing permissions and
 " limitations under the License.
 
+scriptencoding utf-8
+
 " let g:airline_theme='minimalist'
 let g:airline_theme='powerlineish'
 let g:airline_powerline_fonts = 1

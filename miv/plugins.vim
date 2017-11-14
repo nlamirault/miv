@@ -12,6 +12,8 @@
 " See the License for the specific language governing permissions and
 " limitations under the License.
 
+scriptencoding utf-8
+
 let plugin_path = expand('~/.cache/dein')
 
 call dein#begin(g:plugin_dir)
@@ -50,6 +52,8 @@ call dein#add('scrooloose/nerdtree')
 call dein#add('jistr/vim-nerdtree-tabs')
 
 call dein#add('vim-syntastic/syntastic')
+
+call dein#add('scrooloose/nerdcommenter')
 
 " ui
 call dein#add('vim-airline/vim-airline')

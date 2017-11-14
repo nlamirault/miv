@@ -12,6 +12,8 @@
 " See the License for the specific language governing permissions and
 " limitations under the License.
 
+scriptencoding utf-8
+
 if &compatible
   set nocompatible
 endif
@@ -43,3 +45,4 @@ call s:source_rc('plugins.vim')
 " Plugins customization
 call s:source_rc('plugins/airline.vim')
 call s:source_rc('plugins/syntastic.vim')
+call s:source_rc('plugins/nerdcommenter.vim')
