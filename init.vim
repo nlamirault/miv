@@ -12,4 +12,4 @@
 " See the License for the specific language governing permissions and
 " limitations under the License.
 
-execute 'source' fnamemodify(expand('<sfile>'), ':h').'/miv/main.vim'
+execute 'source' fnamemodify(expand('<sfile>'), ':h').'/config/main.vim'
