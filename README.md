@@ -12,6 +12,11 @@ Use [dein](https://github.com/Shougo/dein.vim) as plugin manager.
     $ ln -s ~/Apps/miv ~/.config/nvim
 
 
+## Customization
+
+You could customize this configuration using this file : **$HOME/.nvimrc.local**
+
+
 ## Contributing
 
 See [CONTRIBUTING](CONTRIBUTING.md).
