@@ -78,13 +78,13 @@ call dein#add('jmcantrell/vim-virtualenv')
 call dein#add('fatih/vim-go.git')
 call dein#add('zchee/deoplete-go', {'build': 'make'})
 
+call dein#add('mhinz/vim-startify')
+
 " look
 call dein#add('joshdick/onedark.vim')
 call dein#add('vim-airline/vim-airline')
 call dein#add('vim-airline/vim-airline-themes')
 call dein#add('ryanoasis/vim-devicons')
-
-call dein#add('mhinz/vim-startify')
 
 call dein#end()
 call dein#save_state()
