@@ -49,6 +49,8 @@ call dein#add('Shougo/denite.nvim')
 call dein#add('scrooloose/nerdtree')
 call dein#add('jistr/vim-nerdtree-tabs')
 
+call dein#add('vim-syntastic/syntastic')
+
 " ui
 call dein#add('vim-airline/vim-airline')
 call dein#add('vim-airline/vim-airline-themes')

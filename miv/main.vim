@@ -42,3 +42,4 @@ call s:source_rc('plugins.vim')
 
 " Plugins customization
 call s:source_rc('plugins/airline.vim')
+call s:source_rc('plugins/syntastic.vim')
