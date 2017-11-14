@@ -66,6 +66,7 @@ call dein#add('lambdalisue/gina.vim')
 
 " python
 call dein#add('zchee/deoplete-jedi')
+call dein#add('jmcantrell/vim-virtualenv')
 
 " go
 call dein#add('zchee/deoplete-go', {'build': 'make'})
