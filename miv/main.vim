@@ -44,9 +44,14 @@ call s:source_rc('plugins.vim')
 
 " Plugins customization
 call s:source_rc('plugins/airline.vim')
+call s:source_rc('plugins/autocompletion.vim')
 call s:source_rc('plugins/syntastic.vim')
 call s:source_rc('plugins/nerdcommenter.vim')
 call s:source_rc('plugins/tagbar.vim')
 
 " Core Configuration
+call s:source_rc('colors.vim')
+call s:source_rc('basics.vim')
+call s:source_rc('filetypes.vim')
 call s:source_rc('keybindings.vim')
+call s:source_rc('tempfiles.vim')

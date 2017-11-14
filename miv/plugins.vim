@@ -26,7 +26,7 @@ call dein#add('Shougo/dein.vim')
 " utility for Dein
 call dein#add('haya14busa/dein-command.vim')
 
-" completion
+" autocompletion
 call dein#add('Shougo/deoplete.nvim')
 if !has('nvim')
   call dein#add('roxma/nvim-yarp')
@@ -48,6 +48,7 @@ call dein#add('Shougo/vimproc.vim', {
     \ })
 call dein#add('Shougo/denite.nvim')
 
+" files
 call dein#add('scrooloose/nerdtree')
 call dein#add('jistr/vim-nerdtree-tabs')
 call dein#add('majutsushi/tagbar')
@@ -56,16 +57,16 @@ call dein#add('vim-syntastic/syntastic')
 
 call dein#add('scrooloose/nerdcommenter')
 
-" ui
-call dein#add('vim-airline/vim-airline')
-call dein#add('vim-airline/vim-airline-themes')
-
 " python
 call dein#add('zchee/deoplete-jedi')
 
 " go
 call dein#add('zchee/deoplete-go', {'build': 'make'})
 
+" look
+call dein#add('joshdick/onedark.vim')
+call dein#add('vim-airline/vim-airline')
+call dein#add('vim-airline/vim-airline-themes')
 
 call dein#end()
 call dein#save_state()
