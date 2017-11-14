@@ -66,6 +66,10 @@ call dein#add('tpope/vim-fugitive')
 call dein#add('junegunn/gv.vim')
 call dein#add('lambdalisue/gina.vim')
 
+" devel
+call dein#add('sheerun/vim-polyglot')
+call dein#add('tpope/vim-commentary')
+
 " python
 call dein#add('zchee/deoplete-jedi')
 call dein#add('jmcantrell/vim-virtualenv')
