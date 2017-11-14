@@ -37,4 +37,8 @@ if has('vim_starting')
   call s:source_rc('init.vim')
 endif
 
+" Plugins setup
 call s:source_rc('plugins.vim')
+
+" Plugins customization
+call s:source_rc('plugins/airline.vim')
