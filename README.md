@@ -9,8 +9,7 @@ Use [dein](https://github.com/Shougo/dein.vim) as plugin manager.
 ## Installation
 
     $ git clone git://github.com/nlamirault/miv.git ~/Apps/miv
-    $ ln -s ~/.vim ~/Apps/miv
-    $ ln -s ~/.config/nvim ~/Apps/miv
+    $ ln -s ~/Apps/miv ~/.config/nvim
 
 
 ## Contributing
