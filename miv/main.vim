@@ -46,3 +46,7 @@ call s:source_rc('plugins.vim')
 call s:source_rc('plugins/airline.vim')
 call s:source_rc('plugins/syntastic.vim')
 call s:source_rc('plugins/nerdcommenter.vim')
+call s:source_rc('plugins/tagbar.vim')
+
+" Core Configuration
+call s:source_rc('keybindings.vim')

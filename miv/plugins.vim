@@ -50,6 +50,7 @@ call dein#add('Shougo/denite.nvim')
 
 call dein#add('scrooloose/nerdtree')
 call dein#add('jistr/vim-nerdtree-tabs')
+call dein#add('majutsushi/tagbar')
 
 call dein#add('vim-syntastic/syntastic')
 
