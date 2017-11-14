@@ -69,6 +69,7 @@ call dein#add('zchee/deoplete-jedi')
 call dein#add('jmcantrell/vim-virtualenv')
 
 " go
+call dein#add('fatih/vim-go.git')
 call dein#add('zchee/deoplete-go', {'build': 'make'})
 
 " look
