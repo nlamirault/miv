@@ -1,0 +1,7 @@
+== Description
+
+Miv is a "Starter Kit" for *Neovim*.
+Current version is {MivVersion}.
+
+NOTE: Development version of this documentation could be find on this website :
+https://github.com/nlamirault/miv/tree/develop/doc

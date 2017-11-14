@@ -1,0 +1,69 @@
+= Scame
+Nicolas Lamirault
+v0.1.0
+:revnumber: 0.1.0
+:revdate: 11/14/2017
+:description: Miv documentation
+:doctype: book
+// Settings:
+:compat-mode:
+:experimental:
+:icons: font
+:listing-caption: Listing
+:sectnums:
+:toc:
+:toclevels: 3
+ifdef::backend-pdf[]
+// :title-logo-image: image:chapters/images/sample-title-logo.jpg[pdfwidth=4.25in,align=center]
+:title-logo-image: image:chapters/images/cover.svg[scaledwidth=30%,align=center]
+:pygments-style: tango
+//:source-highlighter: pygments
+:source-highlighter: coderay
+endif::[]
+
+:MivVersion: 1.3.0
+
+include::license.adoc[]
+
+include::description.adoc[]
+
+<<<
+== Installation
+
+=== From source
+
+You could clone the repository into the Emacs directory:
+
+[source,bash]
+----
+$ git clone git://github.com/nlamirault/miv.git ~/Apps/miv
+$ ln -s ~/.vim ~/Apps/miv
+$ ln -s ~/.config/nvim ~/Apps/miv
+----
+
+== Keymap
+
+.Launch menu
+NOTE: Miv provides a main menu : *TODO*
+
+=== UI
+
+[grid="rows",format="csv"]
+[options="header",cols="^,<"]
+|===================================
+Keybinding,Description
+C-h left,Select the window to the left of the current one
+C-l right,Select the window to the right of the current one
+C-k up,Select the window to the up of the current one
+C-j down,Select the window to the down of the current one
+|===================================
+
+
+== Development
+
+[grid="rows",format="csv"]
+[options="header",cols="^,<"]
+|===================================
+Keybinding,Description
+F8,Toggle Tagbar
+|===================================
