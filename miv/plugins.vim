@@ -59,6 +59,11 @@ call dein#add('vim-syntastic/syntastic')
 
 call dein#add('scrooloose/nerdcommenter')
 
+" vc
+call dein#add('tpope/vim-fugitive')
+call dein#add('junegunn/gv.vim')
+call dein#add('lambdalisue/gina.vim')
+
 " python
 call dein#add('zchee/deoplete-jedi')
 
