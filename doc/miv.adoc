@@ -61,9 +61,25 @@ C-j down,Select the window to the down of the current one
 
 == Development
 
+* https://github.com/majutsushi/tagbar[tagbar]
+
 [grid="rows",format="csv"]
 [options="header",cols="^,<"]
 |===================================
 Keybinding,Description
 F8,Toggle Tagbar
 |===================================
+
+
+.Git
+
+* https://github.com/junegunn/gv.vim[gv]
+* https://github.com/lambdalisue/gina.vim[gina]
+
+[grid="rows",format="csv"]
+[options="header",cols="^,<"]
+|====================================
+Keybinding,Description
+:GV,open commit browser
+:Gina status,stage changes
+|====================================
