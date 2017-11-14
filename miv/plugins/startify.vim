@@ -15,7 +15,7 @@
 scriptencoding utf-8
 
 " Version of Miv, this value can not be changed.
-let g:miv_version = '0.1.0'
+let g:miv_version = '0.2.0'
 lockvar g:miv_version
 
  let g:startify_custom_header = [
