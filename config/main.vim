@@ -26,7 +26,6 @@ let g:LINUX = has('unix') && !has('macunix') && !has('win32unix')
 let g:WINDOWS = has('win16') || has('win32') || has('win64')
 let g:config_root = fnamemodify(expand('<sfile>'), ':p:h:gs?\\?'.((g:WINDOWS)?'\':'/') . '?')
 
-
 fu! s:source_rc(path, ...) abort "{{{
   if filereadable(g:config_root. '/' . a:path)
     " echom 'source ' . g:config_root . '/' . a:path

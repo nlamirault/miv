@@ -15,8 +15,8 @@
 scriptencoding utf-8
 
 "" Encoding
-set encoding=utf-8
-set fileencoding=utf-8
+set encoding=utf-8         " The encoding displayed in terminal/gui
+set fileencoding=utf-8     " The encoding written to file.
 set fileencodings=utf-8
 
 filetype plugin indent on  " Load plugins and indentions according to detected filetype.

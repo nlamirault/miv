@@ -14,12 +14,4 @@
 
 scriptencoding utf-8
 
-" let g:onedark_termcolors256
-" let g:onedark_terminal_italics 0
 colorscheme onedark
-
-" let g:lightline = {
-"   \ 'colorscheme': 'onedark',
-"   \ }
-
-" let g:airline_theme='onedark'
