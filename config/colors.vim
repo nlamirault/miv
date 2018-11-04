@@ -14,4 +14,5 @@
 
 scriptencoding utf-8
 
-colorscheme onedark
+" colorscheme onedark
+colorscheme wal
