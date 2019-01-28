@@ -1,4 +1,4 @@
-# Copyright (C) 2017 Nicolas Lamirault <nicolas.lamirault@gmail.com>
+# Copyright (C) 2017-2019 Nicolas Lamirault <nicolas.lamirault@gmail.com>
 
 # Licensed under the Apache License, Version 2.0 (the #License#);
 # you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@ WARN_COLOR=\033[33;01m
 all: help
 
 help:
-	@echo -e "$(OK_COLOR)==== Resume ====$(NO_COLOR)"
+	@echo -e "$(OK_COLOR)==== Doc ====$(NO_COLOR)"
 	@echo -e "$(WARN_COLOR)pdf$(NO_COLOR)   : Make PDF resume"
 	@echo -e "$(WARN_COLOR)html$(NO_COLOR)  : Make HTML resume"
 	@echo -e "$(WARN_COLOR)epub$(NO_COLOR)  : Make EPUB resume"

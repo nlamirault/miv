@@ -14,6 +14,11 @@
 
 APP = miv
 
+VERSION=$(shell \
+	grep "miv_version =" config/plugins/startify.vim \
+	|awk -F" " '{ print $$4 }' \
+	|sed -e "s/'//g")
+
 SHELL = /bin/bash
 
 DIR = $(shell pwd)
@@ -31,7 +36,7 @@ BASE_DIR=$(shell echo `pwd`)
 
 .PHONY: help
 help:
-	@echo -e "$(OK_COLOR)==== $(APP) ====$(NO_COLOR)"
+	@echo -e "$(OK_COLOR)==== $(APP) [$(VERSION)] ====$(NO_COLOR)"
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "$(MAKE_COLOR) : %s\n", $$1, $$2}'
 
 .PHONY: debug
