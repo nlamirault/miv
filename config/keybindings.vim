@@ -1,4 +1,4 @@
-" Copyright (C) 2017 Nicolas Lamirault <nicolas.lamirault@gmail.com>
+" Copyright (C) 2017-2019 Nicolas Lamirault <nicolas.lamirault@gmail.com>
 "
 " Licensed under the Apache License, Version 2.0 (the "License");
 " you may not use this file except in compliance with the License.
@@ -14,14 +14,8 @@
 
 scriptencoding utf-8
 
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-
-let g:syntastic_error_symbol = get(g:, 'spacevim_error_symbol', '✖')
-let g:syntastic_warning_symbol = get(g:, 'spacevim_warning_symbol', '➤')
+" Use ctrl-[hjkl] to select the active split!
+nmap <silent> <c-k> :wincmd k<CR>
+nmap <silent> <c-j> :wincmd j<CR>
+nmap <silent> <c-h> :wincmd h<CR>
+nmap <silent> <c-l> :wincmd l<CR>

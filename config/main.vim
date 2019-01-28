@@ -1,4 +1,4 @@
-" Copyright (C) 2017 Nicolas Lamirault <nicolas.lamirault@gmail.com>
+" Copyright (C) 2017-2019 Nicolas Lamirault <nicolas.lamirault@gmail.com>
 "
 " Licensed under the Apache License, Version 2.0 (the "License");
 " you may not use this file except in compliance with the License.
@@ -26,7 +26,6 @@ let g:LINUX = has('unix') && !has('macunix') && !has('win32unix')
 let g:WINDOWS = has('win16') || has('win32') || has('win64')
 let g:config_root = fnamemodify(expand('<sfile>'), ':p:h:gs?\\?'.((g:WINDOWS)?'\':'/') . '?')
 
-
 fu! s:source_rc(path, ...) abort "{{{
   if filereadable(g:config_root. '/' . a:path)
     " echom 'source ' . g:config_root . '/' . a:path
@@ -47,6 +46,7 @@ call s:source_rc('plugins/airline.vim')
 call s:source_rc('plugins/autocompletion.vim')
 call s:source_rc('plugins/syntastic.vim')
 call s:source_rc('plugins/nerdcommenter.vim')
+call s:source_rc('plugins/nerdtree.vim')
 call s:source_rc('plugins/startify.vim')
 call s:source_rc('plugins/tagbar.vim')
 
@@ -56,3 +56,8 @@ call s:source_rc('basics.vim')
 call s:source_rc('filetypes.vim')
 call s:source_rc('keybindings.vim')
 call s:source_rc('tempfiles.vim')
+
+"" Include user's local vim config
+if filereadable(expand("~/.nvimrc.local"))
+  source ~/.nvimrc.local
+endif

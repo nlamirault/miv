@@ -1,4 +1,4 @@
-" Copyright (C) 2017 Nicolas Lamirault <nicolas.lamirault@gmail.com>
+" Copyright (C) 2017-2019 Nicolas Lamirault <nicolas.lamirault@gmail.com>
 "
 " Licensed under the Apache License, Version 2.0 (the "License");
 " you may not use this file except in compliance with the License.
@@ -12,19 +12,11 @@
 " See the License for the specific language governing permissions and
 " limitations under the License.
 
-" Default encoding to UTF-8
-set encoding=utf-8
-set termencoding=utf-8
+scriptencoding utf-8
 
-" Enable 256 colors
-set t_Co=256
+" Markdown
+au FileType markdown setl tw=120 " automatic linebreak after arround 120 chars in markdown
 
-let g:plugin_dir = expand('~/.cache/dein')
-let g:dein_dir = g:plugin_dir . '/repos/github.com/Shougo/dein.vim'
-
-execute 'set runtimepath+=' . g:dein_dir
-
-if !isdirectory(g:dein_dir)
-  call mkdir(g:dein_dir, 'p')
-  execute '!git clone https://github.com/Shougo/dein.vim' g:dein_dir
-endif
+" Latex
+autocmd BufNewFile,BufRead *.tex  set syntax=tex
+autocmd BufNewFile,BufRead *.tex  set filetype=tex

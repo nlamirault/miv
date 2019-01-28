@@ -12,4 +12,10 @@
 " See the License for the specific language governing permissions and
 " limitations under the License.
 
-execute 'source' fnamemodify(expand('<sfile>'), ':h').'/config/main.vim'
+scriptencoding utf-8
+
+" Enable completion where available.
+let g:ale_completion_enabled = 1
+
+" Set this. Airline will handle the rest.
+let g:airline#extensions#ale#enabled = 1

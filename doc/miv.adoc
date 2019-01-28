@@ -52,12 +52,16 @@ NOTE: Miv provides a main menu : *TODO*
 [options="header",cols="^,<"]
 |===================================
 Keybinding,Description
-C-h left,Select the window to the left of the current one
-C-l right,Select the window to the right of the current one
-C-k up,Select the window to the up of the current one
-C-j down,Select the window to the down of the current one
+C-h,Select the window to the left of the current one
+C-l,Select the window to the right of the current one
+C-k,Select the window to the up of the current one
+C-j,Select the window to the down of the current one
 |===================================
 
+== Input / Output
+
+* https://github.com/junegunn/fzf/blob/master/README-VIM.md[fzm-vim]
+* https://github.com/Shougo/vimfiler.vim[vim-filer]
 
 == Development
 

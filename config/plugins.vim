@@ -1,4 +1,4 @@
-" Copyright (C) 2017 Nicolas Lamirault <nicolas.lamirault@gmail.com>
+" Copyright (C) 2017-2019 Nicolas Lamirault <nicolas.lamirault@gmail.com>
 "
 " Licensed under the Apache License, Version 2.0 (the "License");
 " you may not use this file except in compliance with the License.
@@ -52,10 +52,10 @@ call dein#add('Shougo/denite.nvim')
 call dein#add('scrooloose/nerdtree')
 call dein#add('jistr/vim-nerdtree-tabs')
 call dein#add('majutsushi/tagbar')
+call dein#add('junegunn/fzf', { 'build': './install --all', 'merged': 0})
+call dein#add('junegunn/fzf.vim', { 'depends': 'fzf' })
 
 call dein#add('mhinz/vim-grepper')
-
-call dein#add('vim-syntastic/syntastic')
 
 call dein#add('scrooloose/nerdcommenter')
 
@@ -63,6 +63,12 @@ call dein#add('scrooloose/nerdcommenter')
 call dein#add('tpope/vim-fugitive')
 call dein#add('junegunn/gv.vim')
 call dein#add('lambdalisue/gina.vim')
+
+" devel
+" call dein#add('vim-syntastic/syntastic')
+call dein#add('w0rp/ale')
+call dein#add('sheerun/vim-polyglot')
+call dein#add('tpope/vim-commentary')
 
 " python
 call dein#add('zchee/deoplete-jedi')
@@ -72,13 +78,14 @@ call dein#add('jmcantrell/vim-virtualenv')
 call dein#add('fatih/vim-go.git')
 call dein#add('zchee/deoplete-go', {'build': 'make'})
 
+call dein#add('mhinz/vim-startify')
+
 " look
 call dein#add('joshdick/onedark.vim')
 call dein#add('vim-airline/vim-airline')
 call dein#add('vim-airline/vim-airline-themes')
 call dein#add('ryanoasis/vim-devicons')
-
-call dein#add('mhinz/vim-startify')
+call dein#add('dylanaraps/wal.vim')
 
 call dein#end()
 call dein#save_state()

@@ -1,4 +1,4 @@
-" Copyright (C) 2017 Nicolas Lamirault <nicolas.lamirault@gmail.com>
+" Copyright (C) 2017-2019 Nicolas Lamirault <nicolas.lamirault@gmail.com>
 "
 " Licensed under the Apache License, Version 2.0 (the "License");
 " you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
 scriptencoding utf-8
 
 " Version of Miv, this value can not be changed.
-let g:miv_version = '0.1.0'
+let g:miv_version = '0.2.0'
 lockvar g:miv_version
 
  let g:startify_custom_header = [

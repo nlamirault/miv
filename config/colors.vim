@@ -1,4 +1,4 @@
-" Copyright (C) 2017 Nicolas Lamirault <nicolas.lamirault@gmail.com>
+" Copyright (C) 2017-2019 Nicolas Lamirault <nicolas.lamirault@gmail.com>
 "
 " Licensed under the Apache License, Version 2.0 (the "License");
 " you may not use this file except in compliance with the License.
@@ -14,4 +14,5 @@
 
 scriptencoding utf-8
 
-let g:deoplete#auto_completion_start_length = 2
+" colorscheme onedark
+colorscheme wal
