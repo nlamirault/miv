@@ -8,8 +8,8 @@ Use [dein](https://github.com/Shougo/dein.vim) as plugin manager.
 
 ## Installation
 
-    $ git clone git://github.com/nlamirault/miv.git ~/Apps/miv
-    $ ln -s ~/Apps/miv ~/.config/nvim
+    $ git clone git://github.com/nlamirault/miv.git ~/Projects/miv
+    $ make install
 
 
 ## Customization
