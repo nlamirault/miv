@@ -15,4 +15,6 @@
 scriptencoding utf-8
 
 " colorscheme onedark
+
+" Use Pywal to set colors
 colorscheme wal
