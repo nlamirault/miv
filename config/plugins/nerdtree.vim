@@ -25,4 +25,4 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,*.db,*.sqlite
 
 nnoremap <silent> <F2> :NERDTreeFind<CR>
 
-noremap <F3> :NERDTreeToggle<CR>
+noremap <C-o> :NERDTreeToggle<CR>
