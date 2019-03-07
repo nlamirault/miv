@@ -54,7 +54,7 @@ call dein#add('jistr/vim-nerdtree-tabs')
 call dein#add('majutsushi/tagbar')
 call dein#add('junegunn/fzf', { 'build': './install --all', 'merged': 0})
 call dein#add('junegunn/fzf.vim', { 'depends': 'fzf' })
-
+call dein#add('ctrlpvim/ctrlp.vim')
 call dein#add('mhinz/vim-grepper')
 
 call dein#add('scrooloose/nerdcommenter')
